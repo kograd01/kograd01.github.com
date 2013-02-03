@@ -1,7 +1,30 @@
 h1{
-	color: blue;
+	color: green;
+	text-align: center;
+	font-family: arial;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #996666;
+}
+
+p{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	left:25%;
+	top:25%;
 }
 
 body{
-	background-color: 99FFCC;
+	background-color: 33FF00;
+}
+
+#resume, bio{
+	position: absolute;
+	left: 100%;
+	top: 25%;
+}
+
+html{
+	background-color: #66CC99;
 }
