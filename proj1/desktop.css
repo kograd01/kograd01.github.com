@@ -1,7 +1,8 @@
 h1{
-	color: green;
+	color: #004400;
 	text-align: center;
 	font-family: Monaco;
+	font-size: 35px;
 	border-style: groove;
 	border-width: 5px;
 	border-color: #666666;
@@ -14,11 +15,10 @@ h1{
 	position: absolute;
 	left:35%;
 	top:25%;
-	border-style: dashed;
-}
-
-body{
-	background-color: 33FF00;
+	border-style: groove;
+	border-width:3px;
+	border-color:#666666;
+	border-radius:10px;
 }
 
 #links{
@@ -26,8 +26,18 @@ body{
 	left: 25%;
 	top: 25%;
 	font-family:Monaco;
+	list-style-type: square;
 }
 
 html{
 	background-color: #99CCCC;
+}
+
+#info{
+	font-family: Monaco;
+}
+
+#topics{
+	font-size: 22px;
+	font-weight: bold;
 }
