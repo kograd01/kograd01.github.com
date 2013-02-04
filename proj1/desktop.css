@@ -44,6 +44,5 @@ html{
 
 p{
 	font-family: Monaco;
-	position:absolute;
-	left:35%;
+	text-align: center;
 }
