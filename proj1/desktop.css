@@ -1,0 +1,33 @@
+h1{
+	color: green;
+	text-align: center;
+	font-family: Monaco;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #666666;
+	border-radius:25px;
+}
+
+#pic{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	left:35%;
+	top:25%;
+	border-style: dashed;
+}
+
+body{
+	background-color: 33FF00;
+}
+
+#links{
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	font-family:Monaco;
+}
+
+html{
+	background-color: #99CCCC;
+}
