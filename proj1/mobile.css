@@ -1,0 +1,54 @@
+h1{
+	color: #004400;
+	text-align: center;
+	font-family: Monaco;
+	font-size: 35px;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #666666;
+	border-radius:25px;
+}
+
+#pic{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	left:35%;
+	top:25%;
+	border-style: groove;
+	border-width:3px;
+	border-color:#666666;
+	border-radius:10px;
+}
+
+#links{
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	font-family:Monaco;
+	list-style-type: square;
+}
+
+html{
+	background-color: #99CCCC;
+}
+
+#info{
+	font-family: Monaco;
+}
+
+#topics{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+p{
+	font-family: Monaco;
+	text-align: center;
+	text-indent: 50px;
+}
+#box{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
