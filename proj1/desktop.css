@@ -45,4 +45,10 @@ html{
 p{
 	font-family: Monaco;
 	text-align: center;
+	text-indent: 50px;
+}
+#box{
+	width: 700px;
+	position: absolute;
+	left:25%;
 }
