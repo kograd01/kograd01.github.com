@@ -41,3 +41,9 @@ html{
 	font-size: 22px;
 	font-weight: bold;
 }
+
+p{
+	font-family: Monaco;
+	position:absolute;
+	left:35%;
+}
