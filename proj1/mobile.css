@@ -2,7 +2,7 @@ h1{
 	color: #004400;
 	text-align: center;
 	font-family: Monaco;
-	font-size: 35px;
+	font-size: 50px;
 	border-style: groove;
 	border-width: 5px;
 	border-color: #666666;
@@ -10,7 +10,7 @@ h1{
 }
 
 #pic{
-	width: 30%;
+	width: 70%;
 	height: auto;
 	position: absolute;
 	left:35%;
@@ -23,8 +23,8 @@ h1{
 
 #links{
 	position: absolute;
-	left: 25%;
-	top: 25%;
+	left: 30%;
+	top: 60%;
 	font-family:Monaco;
 	list-style-type: square;
 }
