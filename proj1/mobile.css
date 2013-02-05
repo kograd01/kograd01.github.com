@@ -14,7 +14,7 @@ h1{
 	height: auto;
 	position: absolute;
 	left:15%;
-	top:20%;
+	top:23%;
 	border-style: groove;
 	border-width:3px;
 	border-color:#666666;
@@ -24,7 +24,7 @@ h1{
 #links{
 	position: absolute;
 	left: 35%;
-	top: 80%;
+	top: 90%;
 	font-family:Monaco;
 	font-size: 40px;
 	list-style-type: square;
