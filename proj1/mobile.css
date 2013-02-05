@@ -13,7 +13,7 @@ h1{
 	width: 70%;
 	height: auto;
 	position: absolute;
-	left:15%;
+	left:25%;
 	top:23%;
 	border-style: groove;
 	border-width:3px;
@@ -23,8 +23,8 @@ h1{
 
 #links{
 	position: absolute;
-	left: 35%;
-	top: 90%;
+	left: 15%;
+	top: 50%;
 	font-family:Monaco;
 	font-size: 40px;
 	list-style-type: square;
