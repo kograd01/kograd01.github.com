@@ -5,11 +5,20 @@
 <head>
 <link rel="stylesheet" type="text/css" href= "proj1/desktop.css" media="print, screen and (min-device-width:480px)">
 <link rel="stylesheet" type="text/css" href= "proj1/mobile.css" media="only screen and (max-device-width:480px)">
+<script>
+function updateClock()
+{
+	var currentTime = new Date();
+	var x= currentTime.getHours()+ ":"+currentTime.getMinutes()+":"
+	+currentTime.getSeconds(); 
+	document.getElementById("clock").firstChild.nodeValue= x;
+}
+</script>
 <title>Kelly O'Grady</title>
 
 </head>
 
-<body>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
 <h1>Kelly O'Grady</h1>
 <img id="pic" src="proj1/profilepic.jpg" alt="very cool"/>
 
@@ -17,7 +26,9 @@
 	<li><a href="proj1/resume.html">Resume</a></li>
 	<li><a href="proj1/bio.html">Bio</a></li>
 </ul>
-
+<div id= "clock">
+&nbsp;
+</div>
 </body>
 
 </html>

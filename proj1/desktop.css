@@ -58,3 +58,9 @@ p{
 .subheading{
 	font-size: 18px;
 }
+
+#clock{
+ position: absolute;
+ left:95%;
+ top:95%;
+}
